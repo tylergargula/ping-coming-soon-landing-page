@@ -1,0 +1,169 @@
+/* Main Content Styles */
+body {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 50px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: hsl(223, 87%, 63%);
+  font-weight: 300;
+  margin-top: 2%;
+  box-shadow: rgba(163, 189, 250, 0.51) 0px 8px 24px;
+}
+
+.btn:hover {
+  background-color: hsl(223, 87%, 68%);
+  border-color: hsl(223, 87%, 68%);
+}
+
+.button-container {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 22%;
+}
+
+.container-fluid {
+  padding: 23% 3% 3%;
+}
+
+.dashboard {
+  width: 100%;
+  padding-bottom: 38%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.error-message {
+  display: inline;
+  font-weight: 300;
+  color: hsl(354, 100%, 66%);
+  font-style: italic;
+  margin-bottom: 10%;
+}
+
+.error-message-hidden {
+  display: none;
+}
+
+.first-row-text {
+  font-size: 2rem;
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+.first-row-text span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 50px;
+  padding: 4% 9%;
+  border: 2px solid hsl(223, 100%, 85%) !important;
+}
+
+.form-control:focus {
+  border-color: hsl(223, 97%, 85%);
+  box-shadow: inset 0 1px 1px hsl(223, 87%, 95%), 0 1px 1px hsl(223, 87%, 95%);
+}
+
+.form-control::placeholder {
+  color: hsl(223, 100%, 85%) !important;
+  font-size: 1.1rem;
+}
+
+.logo {
+  padding-bottom: 15%;
+}
+
+.mb-3 {
+  margin-bottom: .3rem !important;
+}
+
+.second-row-text {
+  font-size: 1.1rem;
+  padding-bottom: 7%;
+}
+
+/* Footer Styles */
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding-bottom: 6%;
+}
+
+.social-icons i {
+  font-size: 23px;
+  color: hsl(223, 87%, 63%);
+  border: 2px solid hsl(0, 0%, 94%);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.copyright {
+  color: hsl(0, 0%, 59%);
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 773px) {
+
+
+  .btn {
+
+    padding-top: 8%;
+    padding-bottom: 9%;
+    margin-top: 0;
+    border-radius: 50px;
+  }
+
+  .button-container {
+    margin-bottom: 10%;
+  }
+
+  .container-fluid {
+    padding: 10% 23% 3%;
+  }
+
+  .copyright {
+    font-size: .9rem;
+  }
+
+  .dashboard {
+    padding-bottom: 12%;
+  }
+
+  .first-row-text {
+    font-size: 2.7rem;
+  }
+
+  .logo {
+    padding-bottom: 5%;
+  }
+
+  .second-row-text {
+    font-size: 1.3rem;
+    padding-bottom: 7%;
+  }
+
+  .social-icons i {
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+  }
+
+  ul {
+    padding-bottom: 3%;
+  }
+
+
+}
